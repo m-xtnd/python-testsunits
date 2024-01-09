@@ -32,7 +32,7 @@ class TestCalcul(unittest.TestCase):
         self.assertEqual(resultat, 2.5)
     
     # Test Division par 0
-    def test_division_0(self):
+    def test_division_zero(self):
         resultat = self.calc.diviser(10, 0)
         self.assertEqual(resultat, "Division par zéro impossible")
         # with self.assertRaises(ZeroDivisionError, msg="Division par zéro impossible"):
